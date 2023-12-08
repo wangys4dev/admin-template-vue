@@ -13,7 +13,8 @@
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cz": "cz"
   },
   "dependencies": {
     "pinia": "^2.1.7",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
+    "@commitlint/cz-commitlint": "^18.4.3",
     "@playwright/test": "^1.40.1",
     "@rushstack/eslint-patch": "^1.3.3",
     "@tsconfig/node18": "^18.2.2",
@@ -34,6 +36,7 @@
     "@vue/eslint-config-typescript": "^12.0.0",
     "@vue/test-utils": "^2.4.3",
     "@vue/tsconfig": "^0.4.0",
+    "commitizen": "^4.3.0",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.3",

@@ -5,6 +5,14 @@
   "bracketSpacing": true,
   "endOfLine": "lf",
   "jsxSingleQuote": false,
+  "overrides": [
+    {
+      "files": ["tsconfig.json"],
+      "options": {
+        "trailingComma": "none"
+      }
+    }
+  ],
   "printWidth": 80,
   "quoteProps": "as-needed",
   "semi": false,
